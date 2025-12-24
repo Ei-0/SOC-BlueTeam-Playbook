@@ -60,3 +60,13 @@ The user intentionally abused legitimate access to collect and stage sensitive d
 ## 📁 File Access Logs
 - Multiple confidential files accessed within short timeframes
 - File staging behavior identified in temporary directories
+
+# Forensic Timeline
+
+| Time | Event |
+|-----|------|
+| 22:14 | User login detected |
+| 22:17 | PowerShell execution initiated |
+| 22:21 | Sensitive files accessed |
+| 22:29 | Data staging directory created |
+| 22:35 | Suspicious outbound activity detected |
