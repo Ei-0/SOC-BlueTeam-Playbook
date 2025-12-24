@@ -70,3 +70,27 @@ The user intentionally abused legitimate access to collect and stage sensitive d
 | 22:21 | Sensitive files accessed |
 | 22:29 | Data staging directory created |
 | 22:35 | Suspicious outbound activity detected |
+
+# Final Incident Report – Case 04
+
+## 🧠 Root Cause
+The incident was caused by intentional misuse of legitimate user access to collect and stage sensitive internal data.
+
+## 🛑 Containment Actions
+- User account temporarily disabled
+- Endpoint isolated
+- Password reset enforced
+
+## 🧹 Eradication
+- Removed malicious scripts
+- Cleaned staging directories
+- Reviewed access permissions
+
+## 🔄 Recovery
+- Restored normal access after validation
+- Enhanced monitoring rules deployed
+
+## 📚 Lessons Learned
+- Insider threats require behavioral monitoring
+- PowerShell logging is critical
+- Access reviews must be continuous
