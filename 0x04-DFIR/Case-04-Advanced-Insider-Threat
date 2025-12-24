@@ -46,3 +46,17 @@ The user intentionally abused legitimate access to collect and stage sensitive d
 - Correlate login activity with user schedule
 - Review PowerShell command history
 - Analyze file access frequency and scope
+
+# Logs Analysis
+
+## 🔍 Windows Security Logs
+- Event ID 4624: Successful logon outside normal working hours
+- Event ID 4663: Access to sensitive files not related to user role
+
+## 🔧 PowerShell Logs
+- Encoded PowerShell commands detected
+- Execution policy bypass observed
+
+## 📁 File Access Logs
+- Multiple confidential files accessed within short timeframes
+- File staging behavior identified in temporary directories
