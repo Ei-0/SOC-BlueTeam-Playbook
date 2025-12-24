@@ -1,3 +1,5 @@
+![SOC Blue Team Banner](Assets/Images/SOC-playbook-image.png)
+
 # 🛡️ SOC Blue Team Playbook
 
 An end-to-end Security Operations Center (SOC) & Blue Team project simulating real-world cyber security detection, incident response, and digital forensics investigations.
