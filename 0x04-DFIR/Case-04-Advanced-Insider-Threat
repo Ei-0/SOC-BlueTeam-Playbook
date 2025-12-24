@@ -31,3 +31,18 @@ The activity originated from a legitimate employee account with valid credential
 - Potential exposure of sensitive internal data
 - Risk of data exfiltration
 - Abuse of legitimate user privileges
+
+# Investigation Hypothesis
+
+## Primary Hypothesis
+The user intentionally abused legitimate access to collect and stage sensitive data for unauthorized purposes.
+
+## Alternative Hypotheses
+- User credentials were compromised
+- Activity caused by automated internal scripts
+- Misconfigured permissions
+
+## Validation Approach
+- Correlate login activity with user schedule
+- Review PowerShell command history
+- Analyze file access frequency and scope
