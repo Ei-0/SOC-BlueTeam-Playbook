@@ -1,0 +1,33 @@
+# Case 04 – Advanced Insider Threat
+
+## 📌 Incident Summary
+A suspicious internal user activity was detected involving unauthorized access to sensitive files, abnormal PowerShell execution, and potential data exfiltration attempts.
+
+The activity originated from a legitimate employee account with valid credentials, indicating a possible advanced insider threat scenario.
+
+---
+
+## 🕵️ Detection Source
+- SIEM Alert (User Behavior Anomaly)
+- PowerShell Logging
+- File Access Audit Logs
+
+---
+
+## ⏰ Incident Timeline (High-Level)
+- Initial suspicious PowerShell execution detected
+- Unauthorized access to confidential directories
+- Abnormal login behavior outside business hours
+- Potential data staging activity identified
+
+---
+
+## ⚠️ Severity
+**High**
+
+---
+
+## 🎯 Impact Assessment
+- Potential exposure of sensitive internal data
+- Risk of data exfiltration
+- Abuse of legitimate user privileges
