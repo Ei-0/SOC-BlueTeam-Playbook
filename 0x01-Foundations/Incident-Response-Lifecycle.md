@@ -1,3 +1,5 @@
+![Incident Response Lifecycle](../Assets/Images/incident-response-lifecycle.png)
+
 # 🚨 Incident Response Lifecycle
 
 ## 1. What is Incident Response?
