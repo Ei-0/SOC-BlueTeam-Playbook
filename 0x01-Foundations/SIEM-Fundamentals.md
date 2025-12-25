@@ -1,3 +1,5 @@
+![SOC Workflow](../Assets/Images/soc-workflow.png)
+
 # 🧠 SIEM Fundamentals for SOC Operations
 
 ## 1. What is a SIEM?
