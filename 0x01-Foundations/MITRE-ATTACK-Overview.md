@@ -1,3 +1,5 @@
+![MITRE ATT&CK Overview](../Assets/Images/mitre-attack-overview.png)
+
 # 🎯 MITRE ATT&CK Framework – SOC Perspective
 
 ## 1. What is MITRE ATT&CK?
