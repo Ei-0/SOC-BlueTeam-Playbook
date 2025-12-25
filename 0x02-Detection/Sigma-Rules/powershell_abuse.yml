@@ -1,0 +1,25 @@
+title: Suspicious PowerShell Command Execution
+id: 3c4d5e6f-powershell-003
+status: experimental
+description: Detects suspicious PowerShell command-line arguments indicating obfuscation or execution policy bypass.
+author: SOC Blue Team Playbook
+date: 2025/01/01
+logsource:
+  product: windows
+  service: security
+detection:
+  powershell_exec:
+    EventID: 4688
+    NewProcessName|endswith: powershell.exe
+    CommandLine|contains:
+      - EncodedCommand
+      - ExecutionPolicy Bypass
+      - NoProfile
+  condition: powershell_exec
+falsepositives:
+  - Administrative scripts
+  - IT automation tools
+level: high
+tags:
+  - attack.execution
+  - attack.t1059.001
