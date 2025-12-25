@@ -1,0 +1,19 @@
+title: Potential Data Exfiltration Activity
+id: 4d5e6f7g-exfiltration-004
+status: experimental
+description: Detects abnormal outbound data transfer patterns that may indicate data exfiltration.
+author: SOC Blue Team Playbook
+date: 2025/01/01
+logsource:
+  category: network_traffic
+detection:
+  outbound_transfer:
+    bytes_out|gt: 100000000
+  condition: outbound_transfer
+falsepositives:
+  - Large legitimate file transfers
+  - Cloud backups
+level: high
+tags:
+  - attack.exfiltration
+  - attack.t1567
