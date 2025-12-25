@@ -1,0 +1,20 @@
+title: Multiple Failed Login Attempts
+id: 1a2b3c4d-bruteforce-001
+status: experimental
+description: Detects multiple failed authentication attempts within a short time window, indicating a possible brute force attack.
+author: SOC Blue Team Playbook
+date: 2025/01/01
+logsource:
+  product: windows
+  service: security
+detection:
+  failed_logons:
+    EventID: 4625
+  condition: failed_logons | count() by TargetUserName > 10
+falsepositives:
+  - User password mistakes
+  - Misconfigured applications
+level: medium
+tags:
+  - attack.credential_access
+  - attack.t1110
