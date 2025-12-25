@@ -1,0 +1,21 @@
+title: Suspicious Successful Login Activity
+id: 2b3c4d5e-suspicious-login-002
+status: experimental
+description: Detects successful logins from unusual locations or outside normal working hours.
+author: SOC Blue Team Playbook
+date: 2025/01/01
+logsource:
+  product: windows
+  service: security
+detection:
+  successful_logon:
+    EventID: 4624
+  condition: successful_logon
+falsepositives:
+  - Remote work
+  - VPN usage
+  - Business travel
+level: medium
+tags:
+  - attack.credential_access
+  - attack.t1078
