@@ -61,4 +61,4 @@ This project demonstrates hands-on SOC analyst skills beyond certifications, foc
 ---
 
 ## 🔗 Author
-- LinkedIn: www.linkedin.com/in/ِabdullah-alharbi-030577276
+- LinkedIn: www.linkedin.com/in/ِabdullah-alharbi-cs
